@@ -2,13 +2,13 @@
     color: red;
     background: yellow;
 }
-.lesson-four-task-two .link:hover {
+.lesson-four-task-two .title:hover {
     background: green;
 }
-.lesson-four-task-three .link:visited {
+.lesson-four-task-three a:visited {
     background: yellow;
 }
-.lesson-four-task-four #sidebar:link {
+.lesson-four-task-four .link:link {
     color: red;
 }
 .lesson-four-task-five button:active {
@@ -21,12 +21,14 @@
     color: white;
     background: green;
 }
-.lesson-four-task-eight label {
+.lesson-four-task-eight input[type='checkbox']:checked {
+    background-color: blue; 
+}
+.lesson-four-task-eight input[type='checkbox']:checked ~ #target {
     color: white;
 }
-#checkbox:checked {
-    background-color: blue;
-}
+
+
 .lesson-four-task-nine p:lang(uk) {
     color: blue;
 }
