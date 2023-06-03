@@ -2,16 +2,16 @@
     color: red;
     background: yellow;
 }
-.lesson-four-task-two .title:hover {
+.lesson-four-task-two a:hover ~ h1 {
     background: green;
 }
-.lesson-four-task-three a:visited {
-    background: yellow;
+.lesson-four-task-three  a:visited {
+    color: yellow;
 }
-.lesson-four-task-four .link:link {
+.lesson-four-task-four a:link {
     color: red;
 }
-.lesson-four-task-five button:active {
+.lesson-four-task-five .btn, button:active {
     background: blue;
 }
 .lesson-four-task-six button:focus {
@@ -24,8 +24,10 @@
 .lesson-four-task-eight input[type='checkbox']:checked {
     background-color: blue; 
 }
+
 .lesson-four-task-eight input[type='checkbox']:checked ~ #target {
     color: white;
+    background: blue;
 }
 
 
